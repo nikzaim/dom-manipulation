@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.modal-container {
+  position: absolute;
+  top: 45%;
+  left: 42%;
+}
+
+.modal {
+  background-color: black;
+  border: 1px solid white;
+  text-align: center;
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10px;
+}
+
+.btn-container {
+  position: fixed;
+  background-color: transparent;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+#btn {
+  color: black;
+  background-color: white;
+  padding: 10px 20px;
+}
+
+#btn:hover {
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+  background-color: black;
+}
+
+#close {
+  font-size: 32px;
+}
+#close:hover {
+  color: red;
+  cursor: pointer;
+}

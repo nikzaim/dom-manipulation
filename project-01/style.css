@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px 20px;
+  background-color: black;
+}
+.word {
+  font-size: 48px;
+  color: white;
+}
+
+#btn {
+  height: 48px;
+  width: 112px;
+  background-color: white;
+}
+#btn:hover {
+  height: 48px;
+  width: 112px;
+  background-color: black;
+  border-color: white;
+  color: white;
+}
