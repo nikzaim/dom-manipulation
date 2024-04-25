@@ -53,15 +53,50 @@ form {
 .parent-list {
   all: unset;
   width: 70%;
-
   list-style-type: none;
 }
 
 .task-item {
-  padding: 10px 0 10px 1em;
+  padding: 10px 1em;
   color: white;
   background-color: black;
   margin: 6px 0;
   border: 1px solid black;
   border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.completed-task-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.completed-parent-list {
+  all: unset;
+  width: 70%;
+  list-style-type: none;
+}
+
+.completed-task-item {
+  padding: 10px 1em;
+  color: rgb(159, 159, 159);
+  background-color: rgb(203, 203, 203);
+  margin: 6px 0;
+  border: 1px solid rgb(159, 159, 159);
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.complete-button {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.hidden {
+  visibility: hidden;
+  height: 0;
 }
