@@ -1,0 +1,67 @@
+body {
+  margin: 100px 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  text-align: center;
+}
+.task-form {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-input {
+  all: unset;
+  width: 65%;
+  height: 40px;
+  font-size: 1rem;
+  border: 1px solid black;
+  padding-left: 1em;
+  border-radius: 4px;
+}
+
+.btn {
+  all: unset;
+  width: 25%;
+  padding: 0 10px;
+  height: 40px;
+  font-size: 1rem;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.parent-list {
+  all: unset;
+  width: 70%;
+
+  list-style-type: none;
+}
+
+.task-item {
+  padding: 10px 0 10px 1em;
+  color: white;
+  background-color: black;
+  margin: 6px 0;
+  border: 1px solid black;
+  border-radius: 4px;
+}
